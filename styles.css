@@ -1,0 +1,980 @@
+.logo-img{
+    width: 70px;
+    height:50px;
+
+}
+
+.titlelogo{
+    width:auto;
+    height: auto;
+}
+.jumbotron{
+    text-align: center;
+    background: none;
+    padding: 0px;
+    margin: 0px;
+}
+.section-light{
+    
+        background: #eceeef;
+}
+    
+        div.row {
+            margin: 0;
+            margin-left: -25px;
+        }
+        .row {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            margin-right: 0px;
+            margin-left: -15px;
+            padding-right: -20px;
+        }
+
+body {
+    font-family: "IBM Plex Sans",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.7143;
+    color: #555555;
+    background-color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@media (max-width: 991px)
+.hero-item{
+    padding: 150px  0px;
+}
+
+.btn {
+    line-height: 1.5;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.btn-lg, .btn-group-lg > .btn {
+    padding: 17px 54px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 0;
+}
+    
+.btn-secondary {
+    color: white;
+    background-color: darkslategray;
+    border-color: cornsilk;
+    font-size: medium;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    align-content: center;
+    width: 100%;
+    
+}
+ h1{
+    word-spacing: 20px;
+    line-height: 50px;
+    color : darkred ;
+    font-size: 50px;
+ }
+p{
+    color: darkorange;
+    font-weight: 700;
+    font-size: 40px;
+}
+.new-p{
+    color: whitesmoke;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+   .acm-features.style-2 h6.features-title {
+    font-size: 15px 10px;
+    font-weight: bold;
+    text-transform: uppercase;  
+    
+}
+ .acm-features.style-2 h3.features-title, .acm-features.style-2 h4.features-title, .acm-features.style-2 h5.features-title, .acm-features.style-2 h6.features-title {
+    font-weight: 700;
+    margin-top: 0;
+    
+}
+.acm-features .features-title {
+    font-weight: 300;
+}
+.acm-features .features-desc, .acm-features .features-title {
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 0;
+}
+h6, .h6 {
+    font-size: 12px;
+}
+h4, .h4, h5, .h5, h6, .h6 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "IBM Plex Sans",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    
+}
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h6 {
+    display: block;
+    font-size: 0.67em;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h6.features-title{
+    margin-bottom: 20px;
+}
+.acm-features .col-inner {
+    height: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex: 1 1 auto;
+    padding: 30px 50px;
+    text-align:center ;
+}
+.module-ct {
+    background: transparent;
+    color: inherit;
+    padding: 0;
+} 
+a {
+    color: darkslateblue;
+    text-decoration: none;
+}
+
+
+.container{
+    width: 100%;
+  
+}
+
+label{
+    font-size: 35px;
+    font-weight: 600;
+
+}
+
+.logo-image img {
+    max-height: 60px;
+}
+
+.container-fluid{
+    height: 3.2rem;
+    background-color: gray;
+}
+h7{
+    color: white;
+    text-decoration: none;
+    font-size:300%;
+    margin: 0px 270px;
+}
+
+   
+    .t3-masthead .ja-masthead {
+        background-image: url(https://media.gettyimages.com/videos/biker-riding-motorcycle-on-an-empty-road-at-sunset-video-id827414132?s=640x640);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 144px 0;
+        position: relative;
+        text-align: center;
+        color: white;
+        font-weight:300 ;
+        font-family: "IBM Plex Sans",Helvetica,Arial,sans-serif;
+        line-height: 4;
+    } 
+
+
+     element.style {
+         background-image: url(https://badasshelmetstore.com/wp-content/uploads/2013/06/e631e55004370ad91f891dd3d943ce0a_original-1024x576.jpg);
+    }
+    .acm-features .features-title a {
+        color: #483d8b;
+    }
+     
+    a {
+        background-color: transparent;
+    }
+    
+    
+    a:-webkit-any-link {
+        cursor: pointer;
+        text-decoration: none;
+    } 
+     
+
+  
+.t3-section-wrap .t3-section {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+}
+
+user agent stylesheet
+div {
+    display: block;
+}
+
+.acm-features.style-2 .col-inner.bg-dark {
+    background: transparent;
+}
+@media (max-width: 1295px)
+.acm-features.style-2 .col-inner {
+    padding-left: 36px;
+    padding-right: 36px;
+}
+.acm-features.style-2 .col-inner {
+    
+     height: 100%;
+    width: 100%;
+    left: 18px;
+    right: 18px;
+    top: 0;
+    padding-left: 20%;
+    padding-right: 20%; 
+}
+.acm-features div[class*='col-'] {
+    align-items: center;
+}
+.acm-features .col-inner {
+    height: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex: 1 1 auto;
+    padding: 24px 108px;
+    text-align: center;
+}
+.bg-dark {
+    background: #000000;
+    color: #ffffff;
+}
+div.col-inner.bg-dark{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+
+div {
+    display: block;
+} 
+
+.col-inner.bg-light{
+    padding-bottom: 15px;
+}
+
+
+
+
+
+.module-ct {
+    background: transparent;
+    color: inherit;
+    padding: 0;
+}
+
+
+@media (max-width: 991px)
+.acm-features div[class*='col-'] + div[class*='col-'] {
+    margin-top: 36px;
+}
+
+.col-xs-12 {
+    width: 100%;
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+    float: left;
+}
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 18px;
+    padding-left: 18px;
+}
+
+
+  
+
+
+  .zoom {
+    padding: 10%;
+    
+    transition: transform .2s;
+     width: 250px;
+    height: 200px;
+    margin: 0 auto;
+   
+  }
+
+ 
+  .zoom:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1)
+    
+  }
+ 
+  .features-title-item{
+      padding: 50px;
+      font-size: medium;
+  }
+
+ .zoom-new{
+    /* padding: 50px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    transition: transform .2s;
+     width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    
+
+ }
+
+ .zoom-new:hover {
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05)
+    
+  }
+ 
+ div.col-inner.bg-primary-new {
+    background-color: yellowgreen;
+    color: white;
+    font-weight: 400;
+    height: 100%;
+    width: 100%;
+    padding: 24px 108px;
+    
+
+}
+a.btn.btn-inverse{
+    color: white;
+    background-color: darkslategray;
+    border-color: cornsilk;
+    
+    font-size: 10px;
+    
+}
+
+.acm-features .col-inner{
+    height: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex: 1 1 auto;
+    padding: 24px 108px;
+    text-align: center;
+    width: 100%;
+    position: static;
+}
+.acm-features div[class*='col-'] {
+    align-items: center;
+}
+
+
+/* footer */
+
+.t3-footer {
+    border-top: 1px solid #e8e8e8;
+    background: #bababa;
+    color:black;
+    padding-top: 20px;
+}
+#acym__user__edit__email.cell{
+    padding:8px;
+}
+.acym_introtext{
+    font-size: large;
+}
+ .wrap {
+    width: auto;
+    clear: both;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+
+.t3-footnav .t3-module .module-title {
+    border-bottom: 0;
+    color: black;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    margin-top: 0;
+    padding-bottom: 0;
+}
+.module-title {
+    background: transparent;
+    color: #222222;
+    margin-bottom: 24px;
+    margin-top: 0;
+    border-bottom: 1px solid #e8e8e8;
+    padding-bottom: 18px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+h3, .h3 {
+    font-size: 24px;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+   h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "IBM Plex Sans",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #222222;
+}
+h3{
+    color:white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    font-weight: 300;
+} 
+ {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+/
+.t3-module {
+    background: transparent;
+    color: inherit;
+    margin-bottom: 24px;
+}
+
+
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+div#section199.t3-section.module.space-bottom-nm.no-space-top{
+    padding-bottom: 0px;
+}
+
+footer {
+    display: block;
+} 
+
+
+ .t3-section.space-bottom-nm {  
+    padding:0px;
+}
+
+.new{
+color: #555555;
+font-weight: 100;
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+/* contact us */
+
+.view-contact .t3-mainbody {
+    width: 100%;
+}
+.t3-mainbody {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.container {
+    max-width: 100%;
+}
+.t3-mainbody {
+    margin: 72px auto;
+}
+@media (min-width: 768px)
+.container {
+    width: 756px;
+}
+.container {
+    padding-right: 18px;
+    padding-left: 18px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div {
+    display: block;
+} 
+ 
+
+div.col-sm-12.control-btn{
+
+    padding-bottom: 20px;
+}
+
+.contact-title{
+    
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:30px ;
+}
+
+.send-email{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.hasPopover.required.control-label 
+{
+    font-size: 30px;
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+
+}
+.hasPopover.required{
+    font-size: 30px;
+    color: darkslateblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.btn.btn-primary.validate{
+    color: white;
+    background-color: darkslategray;
+    border-color: cornsilk;
+    font-size: medium;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    align-content: center;
+    width: 60%;
+    
+
+}
+
+footer#t3-footer.wrap.t3-footer-new{
+    padding-top: 50px;
+    background: #bababa;
+}
+
+div#t3-mainbody.container.t3-mainbody{
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+  /* login */
+  
+.card.signin-card{
+    padding: 40x 0px 20px;
+    background-color: #f4f4f4;
+    box-shadow: 2px -2px 5px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+}
+img.signin-img{
+    padding: 0 2rem 2rem;
+    margin: auto;
+    display: block;
+    }
+
+form.signin-form{
+    max-width: 350px;
+    margin: auto;
+
+}
+button.signin-btn{
+    color: #ffffff;
+    background-color: darkslategray;
+    border-color: white;
+    width: 100%;
+    margin-bottom: 1.2rem;
+    }
+    .btn.signin-btn.btn-lg{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: 2rem;
+    }
+a.create-new-account{
+    font-size: 1.2rem;
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+}
+
+label.form-check-label{
+    font-size: 1rem;
+    text-align: left;
+    display: block;
+    color: black;
+    font-weight: 300;
+
+}
+
+
+.forgot{
+    color: red;
+}
+
+h1.login-h1{
+    color: gray;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    align-content: center;
+    margin: 0px;
+}
+
+h2.login-h2{
+    color: black;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.container.signin-container{
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.img-login{
+    background-image: url(https://hitfigure.com/wp-content/uploads/2012/03/login-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.register, .userfields_info{
+    color: darkslategray;
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    padding: 24px 0px 15px;
+    margin-left: 30px;
+}
+
+
+.email, .username, .name, .password, .password2, .first_name, .address_1, .address_2, .zip, .city, .virtuemart_country_id,
+.virtuemart_state_id, .phone_2, .phone_1 {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+
+}
+
+#email_field, #username_field, #name_field, #password_field, #password2_field, #first_name_field, #address_1_field, #address_2_field,
+#zip_field, #city_field, #virtuemart_country_id_field, #virtuemart_state_id_field, #phone_2_field, #phone_1_field{
+    padding: 12px 24px;
+}
+
+.asterisk{
+    color: darkred;
+}
+
+td{
+    padding: 10px;
+}
+
+.button-new-item {
+    color: white;
+    background-color: red;
+   border-color: white;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    padding: 10px;
+    margin-bottom: 1.2rem;
+    align-content: right;
+}
+.button{
+    color: white;
+    background-color: gray;
+   border-color: white;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    padding: 10px;
+    margin-bottom: 1.2rem;
+}
+
+
+table th, table td, table td.key {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+td, tr td {
+    border-top: 1px solid #dddddd;
+}
+th, td {
+    line-height: 1.7143;
+    text-align: left;
+    vertical-align: top;
+}
+td, th {
+    padding: 0;
+}
+
+user agent stylesheet
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+user agent stylesheet
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+fieldset{
+    padding-left: 50px;
+}
+
+/* store */
+
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+}
+
+.btn-header {
+    margin: .5em 15% 2em 15%;
+    color: white;
+    border: 2px solid #2D9CDB;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.btn-header:hover {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.btn-play {
+    display: block;
+    margin: 0 auto;
+    color: #2D9CDB;
+    font-size: 4em;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    text-align: center;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #2D9CDB;
+}
+ 
+
+
+.shop-item {
+    margin: 30px;
+}
+
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.shop-item-image {
+    height: 250px;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    color: #333;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} 
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+ .cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+ 
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
+
+
+h1.band-name.band-name-large{
+  background-image: url(https://i.pinimg.com/originals/ce/a0/11/cea011d72e24ac21f40af4a4f25a7661.jpg);
+  background-position: center;
+  background-size: cover;
+    color:white;
+    align-content: center;
+    height:450px;
+    width:100%;
+}

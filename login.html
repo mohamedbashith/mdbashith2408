@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bikers.in | Login</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    
+    <link rel="stylesheet" href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap-grid.min.css"> 
+    <link rel="stylesheet" href="bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css" >
+    
+  </head>
+  <body class="sign-body"> 
+
+    <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a href="index.html" title="Bikers">
+          <img class="logo-img" src="http://thebikerz.in/wp-content/uploads/2020/12/LOGO-WITH-WHITE-BORDER-e1609320078765.png" alt="Bikers">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="store.html">Shop </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactus.html">Contact us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="login.html">Login and Register</a>
+              </li>
+            
+            </li>
+          </ul>
+        </div>
+        
+        
+      </nav>
+
+
+
+
+
+
+
+      
+
+
+
+    <h1 class="login-h1">Your account details</h1> 
+        <div class="container signin-container">
+            <div class="row-login">
+                 <div class="img-login" style="background-image: url(https://hitfigure.com/wp-content/uploads/2012/03/login-background.jpg);">
+                     <div id="t3-content" class="t3-content col-xs-12">
+                         <div id="system-message-container"></div>
+                              <form id="com-form-login" action="/index.php?option=com_virtuemart&amp;view=user&amp;layout=edit&amp;Itemid=667" method="post" name="com-login">
+                                      <fieldset class="userdata">
+                                          <div>
+                                              <h2 class="login-h2">If you are already registered, please login here</h2>
+                                                 </div>
+                                                     <div class="col-12">
+                                                        <div class="card signin-card">
+                                                            <div class="card-block">
+                                                                <form class="signin-form">
+                                                                    <div class="form-group">
+                                                                        <input type="email" class="form-control" id="emailInput" placeholder="Email">
+                                                                            </div>
+                                                                                <div class="form-group">
+                                                                                     <input type="password" class="form-control" id="passwordInput" placeholder="Password">
+                                                                                </div>
+                                                                             <button type="button" class="btn signin-btn btn-lg">Signin</button>
+                                                                        <div class="form-check">
+                                                                     <label class="form-check-label">
+                                                                <input class="form-check-input" type="checkbox"> Remember me <a href="#">Need Help?</a>
+                                                            </label>
+                                                        </div>
+                                                    <div class="width30 floatleft">
+                                                <a class="forgot" href="" rel="nofollow">Forgot your username?</a>
+                                            </div>
+                                        <div class="width30 floatleft">
+                                    <a class="forgot" href="" rel="nofollow">Forgot your password?</a>
+                                </div>
+                              </form>
+                             </div>	
+                          </div>
+                         </div>
+                       </div>
+                     <a href="login.html" class="create-new-account">Create New Account</a>
+                  </div>
+               <div class="col"></div>
+            </div>     
+          </fieldset>
+       <div class="clr"></div>
+     </form> 
+</div>
+
+
+<fieldset>
+<h2 class="register">Register</h2>
+<form method="post" id="adminForm" name="userForm" action="/index.php/vm/account-maintenance/edit" class="form-validate">
+    <div class="buttonBar-right">
+        <button class="button-new-item" type="submit" onclick="javascript:return myValidator(userForm, true);">Register</button>
+            <button class="button" type="reset" onclick="window.location.href=''">Cancel</button></div>
+                <table class="adminForm user-details">
+                    <tbody><tr title="E-Mail">
+                        <td class="key">
+                             <label class="email" for="email_field"> E-Mail <span class="asterisk">*</span>	</label>
+                                </td>
+                                     <td>
+                                        <input type="email" id="email_field" name="email" size="30" value="" class="required validate-email" maxlength="100" aria-required="true" required="required"> 	</td>
+                                            </tr>
+                                                <tr title="Username">
+                                                    <td class="key">
+                                                         <label class="username" for="username_field"> Username <span class="asterisk">*</span>	</label>
+                                                            </td>
+                                                                <td>
+                                                                     <input type="text" id="username_field" name="username" size="30" value="" class="required" maxlength="25" aria-required="true" required="required"> </td>
+                                                                        </tr>
+                                                                            <tr title="Displayed Name">
+                                                                                <td class="key">
+                                                                                     <label class="name" for="name_field"> Displayed Name <span class="asterisk">*</span>	</label>
+                                                                                    </td>
+                                                                                 <td>
+                                                                         <input type="text" id="name_field" name="name" size="30" value="" class="required" maxlength="25" aria-required="true" required="required"> </td>
+                                                                    </tr>
+                                                                <tr title="Password">
+                                                            <td class="key">
+                                                     <label class="password" for="password_field">Password <span class="asterisk">*</span></label>
+                                                </td>
+                                            <td>
+                                        <input type="password" id="password_field" name="password" class="required" size="30" aria-required="true" required="required">
+                                    </td>
+                                </tr>
+                            <tr title="Confirm Password">
+                         <td class="key">
+                    <label class="password2" for="password2_field">Confirm Password <span class="asterisk">*</span>		</label>
+                 </td>
+             <td>
+        <input type="password" id="password2_field" name="password2" class="required" size="30" aria-required="true" required="required">
+    </td>
+</tr>
+</tbody></table>
+        
+
+
+    <legend class="userfields_info">Billing details</legend>
+        <table class="adminForm user-details">
+            <tbody><tr title="First Name">
+                 <td class="key">
+                    <label class="first_name" for="first_name_field">First Name <span class="asterisk">*</span>	</label>
+                         </td>
+                             <td>
+                                 <input type="text" id="first_name_field" name="first_name" size="30" value="" class="required" maxlength="32" aria-required="true" required="required"> 	</td>
+                                     </tr>
+                                        <tr title="Address 1">
+                                            <td class="key">
+                                                <label class="address_1" for="address_1_field"> Address 1 <span class="asterisk">*</span></label>
+                                                    </td>
+                                                         <td>
+                                                             <input type="text" id="address_1_field" name="address_1" size="30" value="" class="required" maxlength="64" aria-required="true" required="required">	</td>
+                                                                </tr>
+                                                                    <tr title="Address 2">
+                                                                         <td class="key">
+                                                                            <label class="address_2" for="address_2_field">Address 2</label>
+                                                                                </td>
+                                                                                    <td>
+                                                                                         <input type="text" id="address_2_field" name="address_2" size="30" value="" maxlength="64"></td>
+                                                                                            </tr>
+                                                                                                 <tr title="Zip / Postal Code">
+                                                                                                    <td class="key">
+                                                                                                        <label class="zip" for="zip_field">Zip / Postal Code <span class="asterisk">*</span></label>
+                                                                                                            </td>
+                                                                                                                <td>
+                                                                                                             <input type="text" id="zip_field" name="zip" size="30" value="" class="required" maxlength="32" aria-required="true" required="required"> 	</td>
+                                                                                                        </tr>
+                                                                                                    <tr title="City">
+                                                                                                 <td class="key">
+                                                                                            <label class="city" for="city_field">City <span class="asterisk">*</span></label>
+                                                                                         </td>
+                                                                                    <td>
+                                                                                 <input type="text" id="city_field" name="city" size="30" value="" class="required" maxlength="32" aria-required="true" required="required"> 	</td>
+                                                                            </tr>
+                                                                         <tr title="Country">
+                                                                    <td class="key">
+                                                                 <label class="virtuemart_country_id" for="virtuemart_country_id_field"> Country <span class="asterisk">*</span></label>
+                                                             </td>
+                                                         <td>
+                                                     <select id="virtuemart_country_id_field" name="virtuemart_country_id" class="vm-chzn-select required chzn-done" style="width: 210px; display: none;" aria-required="true" required="required">
+                                                <option value="" selected="selected">-- Select --</option>
+                                            <option value="99">India</option></select>
+                                        <div id="virtuemart_country_id_field_chzn" class="chzn-container chzn-container-single chzn-container-single-nosearch" style="width: 210px;"><a href="javascript:void(0)" class="chzn-single"><span>-- Select --</span><div><b></b></div></a><div class="chzn-drop" style="left: -9000px; width: 208px; top: 26px;"><div class="chzn-search"><input type="text" autocomplete="off" style="width: 150px;"></div><ul class="chzn-results"><li id="virtuemart_country_id_field_chzn_o_0" class="active-result result-selected" style="">-- Select --</li><li id="virtuemart_country_id_field_chzn_o_1" class="active-result" style="">India</li></ul></div></div>
+                                     </td>
+                                </tr>
+                            <tr title="State / Province / Region">
+                        <td class="key">
+                    <label class="virtuemart_state_id" for="virtuemart_state_id_field">State / Province / Region <span class="asterisk">*</span></label>
+                </td>
+             <td>
+        <select id="virtuemart_state_id_field" class="required vm-chzn-select chzn-done" name="virtuemart_state_id" style="width: 210px; display: none;" aria-required="true" required="required">
+     <option value="">-- Select --</option>
+</select><div id="virtuemart_state_id_field_chzn" class="chzn-container chzn-container-single chzn-container-single-nosearch" style="width: 210px;"><a href="javascript:void(0)" class="chzn-single"><span>-- Select --</span><div><b></b></div></a><div class="chzn-drop" style="left: -9000px; width: 208px; top: 26px;"><div class="chzn-search"><input type="text" autocomplete="off" style="width: 150px;"></div><ul class="chzn-results"><li id="virtuemart_state_id_field_chzn_o_0" class="active-result result-selected" style="">-- Select --</li>
+</ul></div></div></td></tr>
+    
+<tr title="Mobile phone">
+    <td class="key">
+        <label class="phone_2" for="phone_2_field"> Mobile phone <span class="asterisk">*</span></label>
+            </td>
+                <td>
+                     <input type="text" id="phone_2_field" name="phone_2" size="30" value="" class="required" maxlength="32" aria-required="true" required="required"> </td>
+                        </tr>
+                            <tr title="Phone">
+                                <td class="key">
+                                    <label class="phone_1" for="phone_1_field"> Phone</label>
+                                 </td>
+                            <td>
+                        <input type="text" id="phone_1_field" name="phone_1" size="30" value="" maxlength="32"> 					</td>
+                    </tr>
+            </tbody>
+        </table>
+</fieldset>
+
+
+
+<footer id="t3-footer" class="wrap t3-footer">
+    <div class="t3-subscribe-wrap">
+       <div class="container">
+           <div class="t3-subscribe ">
+            	<div class="acym_module " id="acym_module_formAcym62341"> 
+                 <div class="acym_fulldiv" id="acym_fulldiv_formAcym62341">
+                     <form id="formAcym62341" name="formAcym62341" method="POST" action="/index.php/component/acym/?ctrl=frontusers&amp;tmpl=component" onsubmit="return submitAcymForm('subscribe','formAcym62341')">
+                        <div class="acym_module_form">
+                           <div class="acym_introtext">Sign up   to receive special offers. </div>
+                                  <table class="acym_form">
+                                      <tbody><tr>
+                                          <td class="acyfield_2 acyfield_text"><input placeholder="Email" id="acym__user__edit__email" required="" type="email" class="cell" name="user[email]" value=""></td>
+                                              <td class="acysubbuttons">
+                                                  <input type="button" class="btn btn-primary button subbutton" value="Subscribe";>
+                                                    </td> </tr>
+                                                      </tbody></table>
+                                                         </div>
+                                                           </form>
+                                                              </div> </div>
+                                                                </div> </div></div>
+                                                                    <div class="container">
+                                                                       <div class="t3-spotlight t3-footnav  row">
+                                                                          <div class=" col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                                                              <div class="t3-module module " id="Mod118"><div class="module-inner"><div class="module-ct">
+                                                                                 <div class="custom">
+                                                                                    <div class="footer-info"><a href="index.html"><img src="http://thebikerz.in/wp-content/uploads/2020/12/LOGO-WITH-WHITE-BORDER-e1609320078765.png" style="width: 20%;" alt=""></a>
+                                                                                      <p class="new">16 Usman Road, Tnagar, Chennai-600017</p>
+                                                                                        <p class="new">04412 345678</p>
+                                                                                            <a title="" href="mailto:bikerz.in">care@bikers.in</a></div></div>
+                                                                                              </div></div></div>
+                                                                                                 </div>
+
+                                                                                              <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                                                                                            <div class="t3-module module " id="Mod119"><div class="module-inner"><h3 class="module-title "><span>Info</span></h3><div class="module-ct"><ul class="nav nav-pills nav-stacked menu">
+                                                                                        <li class="item-302"><a href="" >About Us</a><br/><a href="store.html" >Shop </a><br/><a href="" >Help</a><br/><a href="" >FAQ</a><br/><a href="" >Terms &amp; Conditions</a><br/><a href="" >Privacy Policy</a></li></ul>
+                                                                                    </div></div></div>
+                                                                                </div>
+                                                                             <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-6">
+                                                                           <div class="t3-module module " id="Mod122"><div class="module-inner"><h3 class="module-title "><span>Account</span></h3><div class="module-ct"><ul class="nav nav-pills nav-stacked menu">
+                                                                        <li class="item-577"><a href="login.html" >Login / Register</a><br/><a href="" >Order History</a><br/><a href="store.html" >View Cart</a><br/><a href="login.html" >Join With Us</a></li></ul>
+                                                                  </div></div></div>
+                                                              </div>
+                                                           </div>
+                                                         </div>
+                                                       <section class="t3-copyright">
+                                                   <div class="container">
+                                                <div class="row">
+                                             <div class="col-md-8 copyright ">
+                                          <div class="custom">
+                                      <p class="new">Copyright © 2021 Bikers - Online assesories website of Tamilnadu. All Rights Reserved.<br>Images of the products are just for suggestions only. Actual product may vary in their appearance &amp; quality.</p></div>
+                                     </div>
+                                  <div class="col-md-4 poweredby text-hide text-right">
+                                  <div class="custom">
+                               <img src="https://www.braintreepayments.com/images/features/payment-methods/payment-methods.png" alt="" style="width: 100%;"></div>
+                            </div>
+                         </div>
+                     </div>
+                </section>
+           </footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="bootstrap-4.0.0-alpha.6-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
